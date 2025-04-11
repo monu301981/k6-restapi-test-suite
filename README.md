@@ -4,7 +4,14 @@
 This suit is used to test the REST API services using K6.
 
 ## Prerequisites:
-- Install K6 on the system used for testing
+- Install K6 on the system used for testing.
+- Install Git. 
+
+## Installation:
+- Create an empty folder.
+- Open CMD/Terminal and navigate to this folder.
+- Execute command "git clone https://github.com/monu301981/k6-restapi-test-suite".
+- Get into this folder in CMD/terminal to execute further commands.
 
 ## Running tests
 
