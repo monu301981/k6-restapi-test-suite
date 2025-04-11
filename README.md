@@ -1,4 +1,4 @@
-# k6 REST API Test Suite (Windows, Linux and Mac)
+# K6 REST API Test Suite (Windows, Linux and Mac)
 
 ## Introduction
 This suit is used to test the REST API services using K6.
@@ -22,10 +22,10 @@ This suit is used to test the REST API services using K6.
 - Open command prompt and run > runtests prd (for production environment).
 
 ### Linux or Mac:
-- Open command prompt and run > sh runtests.sh dev (for development environment).
-- Open command prompt and run > sh runtests.sh qa (for qa environment).
-- Open command prompt and run > sh runtests.sh stg (for staged environment).
-- Open command prompt and run > sh runtests.sh prd (for production environment).
+- Open terminal and run > sh runtests.sh dev (for development environment).
+- Open terminal and run > sh runtests.sh qa (for qa environment).
+- Open terminal and run > sh runtests.sh stg (for staged environment).
+- Open terminal and run > sh runtests.sh prd (for production environment).
 
 ### Running individual scripts:
 - Open command prompt and run > k6 run scripts/[dev|qa|stg|prd]/restapi-example.js
