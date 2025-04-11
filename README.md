@@ -27,6 +27,9 @@ This suit is used to test the REST API services using K6.
 - Open command prompt and run > sh runtests.sh stg (for staged environment).
 - Open command prompt and run > sh runtests.sh prd (for production environment).
 
+### Running individual scripts:
+- Open command prompt and run > k6 run scripts/[dev|qa|stg|prd]/restapi-example.js
+
 ## Adding tests
 - Add test files referring to the existing test scripts and deploy them in ./scripts/dev|qa|stg|prd folders based on the environments.
 - Add json files referring to the existing json files and deploy them in ./scripts/dev|qa|stg|prd folders based on the environments.
